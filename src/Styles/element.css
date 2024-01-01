@@ -5,14 +5,14 @@
     align-items: center;
     padding: 8px;
     margin: 8px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.2s linear, color 0.2s linear;
+    transition: 0.2s linear;
 }
 
 .element:hover {
-    background-color: white;
-    color: #5d5993;
+    background-color: rgba(161, 156, 209, 255);
+    color: white;
 }
 
 .element.selected {
