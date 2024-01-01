@@ -1,0 +1,29 @@
+.element {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(161, 156, 209, 255);
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s linear, color 0.2s linear; /* Add smooth transition */
+}
+
+.element:hover {
+    background-color: white;
+    color: #5d5993;
+}
+
+.element.selected {
+    background-color: white;
+    color: #5d5993;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content span {
+    margin-right: 6px;
+}
