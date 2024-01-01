@@ -7,7 +7,7 @@
     margin: 8px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.2s linear, color 0.2s linear; /* Add smooth transition */
+    transition: background-color 0.2s linear, color 0.2s linear;
 }
 
 .element:hover {

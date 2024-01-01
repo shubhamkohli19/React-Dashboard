@@ -1,4 +1,31 @@
-.sidebar {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
     background-color: #5d5993;
     font-size: 15px;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+
+.button{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(252,103,61,255);
+    width:fit-content;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: rgb(255, 77, 0);
+    transition: .2s ease
 }

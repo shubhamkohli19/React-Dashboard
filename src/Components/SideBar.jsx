@@ -3,23 +3,24 @@ import "../Styles/sidebar.css";
 import logo from "../Images/logo.png";
 import Element from "./Element";
 import { SidebarData } from '../SidebarData';
+import openingPoster from "../Images/openingPoster.jpg"
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const SideBar = () => {
   const [selectedItem, setSelectedItem] = useState("Dashboard");
 
   const handleElementClick = (title) => {
     setSelectedItem(title);
-    // Add any additional logic you may need on element click
   };
 
   return (
     <>
-      <div className='h-[100vh] w-[20vw] fixed sidebar'>
-        <div className='flex justify-center my-8'>
+      <div className='h-[1000px] w-[20vw] sidebar'>
+        <div className='flex justify-center py-4'>
           <span><img src={logo} alt="" className='h-8 w-8 rounded-full'/></span>
           <span className='text-xl pl-2 text-white font-medium '>Skilify Admin</span>
         </div>
-        <div className='h-[50vh] w-[15vw] mx-auto'>
+        <div className='mb-2 w-[15vw] mx-auto border border-white'>
           {SidebarData.map((val) => (
             <Element
               key={val.title}
@@ -30,9 +31,19 @@ const SideBar = () => {
             />
           ))}
         </div>
+        <div className='my-16 py-5 w-[15vw] border border-white mx-auto bg-white rounded-lg flex-col'>
+          <div className='w-48 mx-auto py-2'><img src={openingPoster} alt="" /></div>
+          <div className='button mx-auto'><button>Get Subscription</button></div>
+          
+        </div>
+        <div className='text-white border w-fit mx-auto'>
+          <div className='font-bold '>Skilify Teacher Dashboard Admin</div>
+          <div className='text-[16px]'><CopyrightIcon/><span> 2020 all rights reserved</span></div>
+        </div>
       </div>
     </>
   );
 }
 
 export default SideBar;
+
