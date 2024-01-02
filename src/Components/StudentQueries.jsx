@@ -4,7 +4,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 const StudentQueries = () => {
   return (
     <div className="w-full pr-8">
-      <div className="font-bold flex justify-between pb-4 pb-1 mb-4 border-b-2">
+      <div className="font-bold flex justify-between pb-1 mb-4 border-b-2">
         <span>Student Queries</span>
         <span>
           <MoreVertIcon />

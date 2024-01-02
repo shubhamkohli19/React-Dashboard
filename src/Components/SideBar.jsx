@@ -15,7 +15,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className='h-[1200px] w-[20vw] sidebar'>
+      <div className='h-[1650px] w-[20vw] sidebar'>
         <div className='flex justify-center py-8'>
           <span><img src={logo} alt="" className='h-8 w-8 rounded-full'/></span>
           <span className='text-xl pl-2 text-white font-medium '>Skilify Admin</span>

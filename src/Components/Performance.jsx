@@ -6,7 +6,7 @@ import visitorsGraph from "../Images/visitorsGraph.jpg";
 
 const Performance = () => {
   return (
-    <div className="h-fit performance">
+    <div className="h-fit performance mb-16">
       <div className="flex m-8 font-bold text-[22px] pl-10">
         <div className="flex pl-6 pr-4 py-2 my-auto impression">
           <div>

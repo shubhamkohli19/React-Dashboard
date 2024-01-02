@@ -5,6 +5,7 @@ import Performance from "../Components/Performance";
 import Sales from "../Components/Sales";
 import "../Styles/mainDashboard.css";
 import StudentQueries from "../Components/StudentQueries";
+import CourseStatus from "../Components/CourseStatus";
 
 const MainDashboard = () => {
   return (
@@ -18,6 +19,7 @@ const MainDashboard = () => {
             <Sales />
             <StudentQueries />
           </div>
+          <CourseStatus/>
         </div>
       </div>
     </>
