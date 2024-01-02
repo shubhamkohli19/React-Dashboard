@@ -2,11 +2,11 @@ import React from "react";
 import "../Styles/performance.css";
 import graph from "../Images/graph.png";
 import revenueGraph from "../Images/revenueGraph.jpg";
-import visitorsGraph from "../Images/visitorsGraph.jpg"
+import visitorsGraph from "../Images/visitorsGraph.jpg";
 
 const Performance = () => {
   return (
-    <div className="h-[90vh] performance">
+    <div className="h-fit performance">
       <div className="flex m-8 font-bold text-[22px] pl-10">
         <div className="flex pl-6 pr-4 py-2 my-auto impression">
           <div>
@@ -45,9 +45,13 @@ const Performance = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit flex mx-20 ">
-        <div className="mx-10"><img src={revenueGraph} alt="" /></div>
-        <div className="mx-10"><img src={visitorsGraph} alt="" /></div>
+      <div className="h-fit flex justify-evenly">
+        <div className="w-[800px] ">
+          <img src={revenueGraph} alt="" />
+        </div>
+        <div className="w-[251px] ">
+          <img src={visitorsGraph} alt="" />
+        </div>
       </div>
     </div>
   );

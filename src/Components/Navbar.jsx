@@ -10,7 +10,7 @@ import MonitorHeartOutlinedIcon from '@mui/icons-material/MonitorHeartOutlined';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="flex items-center mx-20">
+      <div className="flex items-ceb  wnter mx-20">
         <span>
           <FormatAlignLeftIcon />
         </span>
