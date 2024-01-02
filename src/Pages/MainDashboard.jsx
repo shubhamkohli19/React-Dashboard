@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import Performance from "../Components/Performance";
 import Sales from "../Components/Sales";
 import "../Styles/mainDashboard.css";
+import StudentQueries from "../Components/StudentQueries";
 
 const MainDashboard = () => {
   return (
@@ -13,7 +14,10 @@ const MainDashboard = () => {
         <div>
           <Navbar />
           <Performance />
-          <Sales/>
+          <div className="flex sales">
+            <Sales />
+            <StudentQueries />
+          </div>
         </div>
       </div>
     </>

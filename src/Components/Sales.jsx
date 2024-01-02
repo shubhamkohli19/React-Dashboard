@@ -6,9 +6,9 @@ import totalSales from "../Images/totalSales.jpg";
 
 const Sales = () => {
   return (
-    <div className="flex sales">
-      <div className="w-64">
-        <div className="flex justify-between mx-1 pb-6">
+    <div className="flex sales px-8">
+      <div className="w-64 px-8">
+        <div className="flex justify-between mx-1 pb-1 mb-5 border-b-2">
           <span className="font-bold">Sale</span>
           <span>
             <MoreVertIcon />
@@ -21,29 +21,29 @@ const Sales = () => {
           <div className=" flex  justify-between py-2">
             <span>Current Week</span>
             <span>2000</span>
-            <span>+0.3%</span>
+            <span className="text-green-500">+0.3%</span>
           </div>
           <div className="flex justify-between pt-7">
             <span>Last Week</span>
             <span>1500</span>
-            <span>-0.3%</span>
+            <span className="text-red-500">-0.3%</span>
           </div>
         </div>
       </div>
-      <div className="w-[420px] border ">
-        <div className="flex font-bold justify-between pl-1">
+      <div className="w-[420px] ">
+        <div className="flex font-bold justify-between pl-1 pb-1 border-b-2">
           <span>Weekly Sales Stats</span>
           <span>
             <MoreVertIcon />
           </span>
         </div>
-        <div className="">
+        <div >
           <img src={weeklySales} alt="" />
         </div>
         <div className="flex justify-between items-center py-2 text-[12px]">
           <div className=" w-12 ">
             <img
-              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg"
+              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg" className="rounded"
               alt=""
             />
           </div>
@@ -58,7 +58,7 @@ const Sales = () => {
         <div className="flex justify-between items-center py-2 text-[12px]">
           <div className=" w-12">
             <img
-              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg"
+              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg" className="rounded"
               alt=""
             />
           </div>
@@ -73,7 +73,7 @@ const Sales = () => {
         <div className="flex justify-between items-center py-2 text-[12px]">
           <div className=" w-12">
             <img
-              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg"
+              src="https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg" className="rounded"
               alt=""
             />
           </div>
